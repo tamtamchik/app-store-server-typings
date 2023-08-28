@@ -1,0 +1,52 @@
+{
+  "name": "@tamtamchik/app-store-server-typings",
+  "version": "0.9.0",
+  "description": "Type definitions and interfaces for App Store APIs.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./src/index.ts",
+  "author": "Yuri Tkachenko <yuri.tam.tkachenko@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/tamtamchik/app-store-server-typings#readme",
+  "bugs": {
+    "url": "https://github.com/tamtamchik/app-store-server-typings/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tamtamchik/app-store-server-typings.git"
+  },
+  "keywords": [
+    "apple",
+    "app store",
+    "types",
+    "typings",
+    "interface",
+    "app store server notifications",
+    "app store server api",
+    "typescript"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./src/index.ts"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "20.5.1",
+    "@typescript-eslint/eslint-plugin": "6.4.0",
+    "@typescript-eslint/parser": "6.4.0",
+    "eslint": "8.47.0",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "tsup": "7.2.0",
+    "typescript": "5.1.6"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --clean",
+    "dev": "npm run build -- --watch src",
+    "lint": "eslint src --fix",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "prepublishOnly": "npm run build"
+  }
+}
