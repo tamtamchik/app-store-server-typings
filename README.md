@@ -32,7 +32,7 @@ Pull requests are always welcome. If you have bigger changes in mind, please ope
 
 ## License
 
-Apple Receipt Parser is [MIT licensed](./LICENSE).
+Apple App Store Server Typings is [MIT licensed](./LICENSE).
 
 [ico-coffee]: https://img.shields.io/badge/Buy%20Me%20A-Coffee-%236F4E37.svg?style=flat-square
 [ico-version]: https://img.shields.io/npm/v/@tamtamchik/app-store-server-typings.svg?style=flat-square
