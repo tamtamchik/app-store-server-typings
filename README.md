@@ -1,5 +1,8 @@
 # Apple App Store Server Typings
 
+> ⚠️ **Deprecated.** This package is no longer maintained and its typings stop at the August 2023 state of Apple's APIs.
+> Use [`@tamtamchik/apple-iap-tools`](https://github.com/tamtamchik/apple-iap-tools) v2 instead — it ships up-to-date typings for App Store Server Notifications V2 and the App Store Server API (1.21+), plus signature verification and a typed API client.
+
 [![Buy Me A Coffee][ico-coffee]][link-coffee]
 [![Latest Version on NPM][ico-version]][link-npm]
 [![Software License][ico-license]](./LICENSE)
